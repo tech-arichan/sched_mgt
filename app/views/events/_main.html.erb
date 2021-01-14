@@ -21,6 +21,8 @@
     <div>
       <%= link_to "#{event.title}", "/" %>
     </div>
+      <%= link_to '削除', event_path(event.id), method: :delete %>
+
   <% end %>
 <% end %>
 
